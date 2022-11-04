@@ -1,0 +1,192 @@
+.document {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(127.55deg, #4502D9 -44.16%, #000000 74.85%), #000000;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.header {
+    width: 100%;
+    padding: 33px 0 0 16.875%;
+    margin-bottom: 91px;
+}
+
+.logo_image {
+    display:inline;
+    width: 27px;
+    height: 22px;
+    margin-right: 7px;
+}
+
+.logo_text {
+    display: inline;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.spinner {
+   margin-left: 46%;
+} 
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 412px;
+    height: 66px;
+    margin: auto;
+}
+
+.search_container {
+    margin-bottom: .5rem;
+    width: 414px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.search_icon {
+    display: inline-block;
+    margin-right: 9.62px;
+}
+
+.search_text {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 306px;
+    color: #ffffff;
+    height: 46px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    display: inline-block;
+    align-items: center;   
+}
+
+.search_line {
+    border: 1px solid #9A9A9A;
+    margin: 0;
+    width: auto;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.school_container {
+    height: 100%;
+    mask-image: linear-gradient(to top, #1A0151 93%, rgba(25, 1, 77, 0) 100%);
+    padding-top: 18px;
+    max-height: calc(100vh - 281px);
+    overflow-y: scroll;
+}
+
+.card {
+    width: 414px;
+    height: 76px;
+    background-color: #282E3C;
+    border-radius: 20px;
+    margin: 0px auto 8px auto;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #151921;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-image: linear-gradient(127.55deg, #0224D9 -44.16%, #04002B 74.85%);
+    width: 54px;
+    height: 54px;
+    margin: 11px 12px 11px 12px;
+    display: inline-block;
+}
+
+.avatar_text {
+    width: 34px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    margin: 9px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.school_text_container {
+    display: inline-block;
+    width: 310px;
+    height: 76px;
+}
+
+.school_name {
+    width: 310px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: auto;
+    overflow-x: scroll;
+}
+
+.school_county {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+/* Media Queries For Screens <480px Wide */
+@media (max-width: 480px){
+    .heading {
+        width: 320px;
+    }
+    .search_container {
+        width: 320px;
+    }
+    .search_text {
+        width: 290px;  
+    }
+    .card {
+        width: 320px;
+    }
+    .school_text_container {
+        width: 214px;
+    }
+    .school_name {
+        width: 214px;
+        overflow-x: hidden;
+    }
+ }
+
+ /* Media Queries For Screens <320px Wide */
+ @media (max-width: 320px){
+    .heading {
+        font-size: 30px;
+        width: 280px;
+    }
+    .search_container {
+        width: 270px;
+    }
+    .search_text {
+        width: 240px;  
+    }
+    .card {
+        width: 270px;
+    }
+    .school_text_container {
+        width: 164px;
+    }
+    .school_name {
+        width: 164px;
+        overflow-x: hidden;
+    }
+ }
